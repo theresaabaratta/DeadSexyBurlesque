@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Events | Dead Sexy Burlesque Theater</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      background-color: #0b0b0f;
+      color: #ffffff;
+    }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,.72), rgba(0,0,0,.88)),
+        url('https://images.unsplash.com/photo-1515169067868-5387ec356754?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
+      padding: 120px 20px;
+      text-align: center;
+    }
+    .section-dark {
+      background-color: #12121a;
+    }
+    .card-dark {
+      background-color: #171720;
+      border: 1px solid rgba(255,255,255,0.08);
+      color: #fff;
+      height: 100%;
+    }
+    .highlight {
+      color: #f43f5e;
+    }
+    .placeholder-badge {
+      background-color: #6c757d;
+      color: #fff;
+      font-size: 0.8rem;
+      letter-spacing: 0.02em;
+    }
+    .btn-danger {
+      background-color: #e11d48;
+      border-color: #e11d48;
+    }
+    .btn-danger:hover {
+      background-color: #be123c;
+      border-color: #be123c;
+    }
+    .muted {
+      color: rgba(255,255,255,0.72);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Dead Sexy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Tickets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-4 fw-bold mb-3">Event Archive & Upcoming Dates</h1>
+      <p class="lead mb-0">
+        A theatrical burlesque production with room to showcase past performances, special appearances, and future show dates.
+      </p>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-9">
+          <h2 class="fw-bold mb-3">Use This Page as Your Show Timeline</h2>
+          <p class="muted mb-0">
+            The cards below are formatted as placeholders so you can easily swap in real venues, dates, cities, cast notes, and ticket links whenever you’re ready.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UPCOMING EVENTS -->
+  <section class="py-5 section-dark">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-4">
+        <div>
+          <h2 class="fw-bold mb-1">Upcoming Events</h2>
+          <p class="muted mb-0">Add current and ticket-ready performances here.</p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-dark p-4">
+            <div class="d-flex justify-content-between align-items-start mb-3">
+              <span class="badge placeholder-badge">Placeholder</span>
+              <span class="small muted">Month DD, YYYY</span>
+            </div>
+            <h4 class="fw-bold">Event Title Here</h4>
+            <p class="mb-2"><strong class="highlight">Venue:</strong> Theater / Lounge / Cabaret Space</p>
+            <p class="mb-2"><strong class="highlight">City:</strong> City, State</p>
+            <p class="muted">
+              Add a short summary of the performance, special theme, guest cast, or what makes this event unique.
+            </p>
+            <a href="#" class="btn btn-danger mt-2">Buy Tickets</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-dark p-4">
+            <div class="d-flex justify-content-between align-items-start mb-3">
+              <span class="badge placeholder-badge">Placeholder</span>
+              <span class="small muted">Month DD, YYYY</span>
+            </div>
+            <h4 class="fw-bold">Late Night Burlesque Showcase</h4>
+            <p class="mb-2"><strong class="highlight">Venue:</strong> Add Venue Name</p>
+            <p class="mb-2"><strong class="highlight">City:</strong> Add City, State</p>
+            <p class="muted">
+              Use this space for a teaser about the storyline, atmosphere, or featured performers.
+            </p>
+            <a href="#" class="btn btn-danger mt-2">Reserve Seats</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-dark p-4">
+            <div class="d-flex justify-content-between align-items-start mb-3">
+              <span class="badge placeholder-badge">Placeholder</span>
+              <span class="small muted">Month DD, YYYY</span>
+            </div>
+            <h4 class="fw-bold">Halloween Special Production</h4>
+            <p class="mb-2"><strong class="highlight">Venue:</strong> Add Venue Name</p>
+            <p class="mb-2"><strong class="highlight">City:</strong> Add City, State</p>
+            <p class="muted">
+              Perfect spot for a seasonal event, limited-run production, or one-night-only performance listing.
+            </p>
+            <a href="#" class="btn btn-danger mt-2">Get Tickets</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENT ARCHIVE -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="fw-bold mb-3 text-center">Event Archive</h2>
+      <p class="muted text-center mb-5">
+        These entries are sample placeholders only. Replace them with real past production dates, venues, and lineup details.
+      </p>
+
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card card-dark p-4">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h4 class="fw-bold mb-0">Previous Show Title</h4>
+              <span class="badge placeholder-badge">Placeholder</span>
+            </div>
+            <p class="mb-2"><strong class="highlight">Date:</strong> Month DD, YYYY</p>
+            <p class="mb-2"><strong class="highlight">Venue:</strong> Add Venue Name</p>
+            <p class="mb-2"><strong class="highlight">Location:</strong> Add City, State</p>
+            <p class="muted mb-0">
+              Add a short recap, theme, cast feature, or note about the performance once you have real details ready.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-dark p-4">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h4 class="fw-bold mb-0">Cabaret Night Feature</h4>
+              <span class="badge placeholder-badge">Placeholder</span>
+            </div>
+            <p class="mb-2"><strong class="highlight">Date:</strong> Month DD, YYYY</p>
+            <p class="mb-2"><strong class="highlight">Venue:</strong> Add Venue Name</p>
+            <p class="mb-2"><strong class="highlight">Location:</strong> Add City, State</p>
+            <p class="muted mb-0">
+              Ideal for a short write-up about a themed set, rotating cast, or a standout night in the production schedule.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-dark p-4">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h4 class="fw-bold mb-0">Special Guest Performance</h4>
+              <span class="badge placeholder-badge">Placeholder</span>
+            </div>
+            <p class="mb-2"><strong class="highlight">Date:</strong> Month DD, YYYY</p>
+            <p class="mb-2"><strong class="highlight">Venue:</strong> Add Venue Name</p>
+            <p class="mb-2"><strong class="highlight">Location:</strong> Add City, State</p>
+            <p class="muted mb-0">
+              You can later add a short description of the audience, guest performers, or production concept here.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-dark p-4">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h4 class="fw-bold mb-0">Themed Showcase Night</h4>
+              <span class="badge placeholder-badge">Placeholder</span>
+            </div>
+            <p class="mb-2"><strong class="highlight">Date:</strong> Month DD, YYYY</p>
+            <p class="mb-2"><strong class="highlight">Venue:</strong> Add Venue Name</p>
+            <p class="mb-2"><strong class="highlight">Location:</strong> Add City, State</p>
+            <p class="muted mb-0">
+              Use this card for any archived event once verified details are available.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIMPLE SCHEDULE TABLE -->
+  <section class="py-5 section-dark">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4">Simple Event Listing Format</h2>
+      <div class="table-responsive">
+        <table class="table table-dark table-bordered align-middle">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Show Name</th>
+              <th>Venue</th>
+              <th>City</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Month DD, YYYY</td>
+              <td>Placeholder Event</td>
+              <td>Add Venue</td>
+              <td>Add City</td>
+              <td><span class="badge bg-secondary">Placeholder</span></td>
+            </tr>
+            <tr>
+              <td>Month DD, YYYY</td>
+              <td>Placeholder Event</td>
+              <td>Add Venue</td>
+              <td>Add City</td>
+              <td><span class="badge bg-secondary">Placeholder</span></td>
+            </tr>
+            <tr>
+              <td>Month DD, YYYY</td>
+              <td>Placeholder Event</td>
+              <td>Add Venue</td>
+              <td>Add City</td>
+              <td><span class="badge bg-secondary">Placeholder</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-3">Ready to Add Real Dates?</h2>
+      <p class="muted mb-4">
+        Update this page with confirmed venues, show summaries, ticket links, and cast lineups as your schedule grows.
+      </p>
+      <a href="#" class="btn btn-danger btn-lg me-2">View Tickets</a>
+      <a href="#" class="btn btn-outline-light btn-lg">Contact the Production</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-4 bg-black text-center">
+    <div class="container">
+      <p class="small mb-1">© 2026 Dead Sexy Burlesque Theater</p>
+      <p class="small muted mb-0">Events • Ticketed Performances • Private Bookings</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
